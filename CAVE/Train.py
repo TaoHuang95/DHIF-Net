@@ -18,7 +18,7 @@ if __name__=="__main__":
 
     ## Model Config
     parser = argparse.ArgumentParser(description="PyTorch Code for HSI Fusion")
-    parser.add_argument('--data_path', default='E:/实验区/DBSIP/data/zc_data/cave/train/', type=str,
+    parser.add_argument('--data_path', default='./Data/Train/', type=str,
                         help='Path of the training data')
     parser.add_argument("--sizeI", default=96, type=int, help='The image size of the training patches')
     parser.add_argument("--batch_size", default=4, type=int, help='Batch size')
@@ -56,10 +56,10 @@ if __name__=="__main__":
     HR_HSI, HR_MSI = prepare_data(opt.data_path, file_list, 20)
 
     ## Load trained model
-    initial_epoch = findLastCheckpoint(save_dir="./Model")
+    initial_epoch = findLastCheckpoint(save_dir="./Checkpoint/f16/Model")
     if initial_epoch > 0:
         print('resuming by loading epoch %03d' % initial_epoch)
-        model = torch.load(os.path.join("./Model", 'model_%03d.pth' % initial_epoch))
+        model = torch.load(os.path.join("./Checkpoint/f16/Model", 'model_%03d.pth' % initial_epoch))
 
     ## Loss function
     criterion = nn.L1Loss()
@@ -97,4 +97,4 @@ if __name__=="__main__":
 
         elapsed_time = time.time() - start_time
         print('epcoh = %4d , loss = %.10f , time = %4.2f s' % (epoch + 1, epoch_loss / len(dataset), elapsed_time))
-        torch.save(model, os.path.join("./Model", 'model_%03d.pth' % (epoch + 1)))  # save model
+        torch.save(model, os.path.join("./Checkpoint/f16/Model", 'model_%03d.pth' % (epoch + 1)))  # save model
