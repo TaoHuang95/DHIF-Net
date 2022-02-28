@@ -40,7 +40,7 @@ git clone https://github.com/TaoHuang95/DHIF-Net
 ```
 
 
-or download the [[zip file](https://github.com/TaoHuang95/DHIF-Net/archive/main.zip)]] manually.
+or download the [[zip file](https://github.com/TaoHuang95/DHIF-Net/archive/main.zip)] manually.
 
 ### Download the training data
 
