@@ -13,7 +13,7 @@ parser.add_argument('--data_path', default='./Data/Test/', type=str, help='path 
 parser.add_argument("--sizeI", default=512, type=int, help='the size of trainset')
 parser.add_argument("--testset_num", default=12, type=int, help='total number of testset')
 parser.add_argument("--batch_size", default=1, type=int, help='Batch size')
-parser.add_argument("--sf", default=16, type=int, help='Scaling factor')
+parser.add_argument("--sf", default=8, type=int, help='Scaling factor')
 parser.add_argument("--seed", default=1, type=int, help='Random seed')
 parser.add_argument("--kernel_type", default='gaussian_blur', type=str, help='Kernel type')
 opt = parser.parse_args()
@@ -28,7 +28,7 @@ dataset = cave_dataset(opt, HR_HSI, HR_MSI, istrain=False)
 loader_train = tud.DataLoader(dataset, batch_size=opt.batch_size)
 
 
-model = torch.load("./Checkpoint/f16/model.pth")
+model = torch.load("./Checkpoint/f8/model.pth")
 model = model.eval()
 model = model.cuda()
 
