@@ -20,7 +20,7 @@ Physical acquisition of high-resolution hyperspectral images (HR-HSI) has remain
 ## Architecture
 
 <p align="center">
-<img src="E:/科研区/光谱融合-202003/Submit/TCI2021/R2/submit/最终提交/Source Files/Figures/Network.png" width="1200">
+<img src="Images/Network.png" width="1200">
 </p>
 Fig. 1: Architecture of the proposed network for hyperspectral image fusion. The architecture of (a) the overall network; (b)
 the spatio-spectral regularization module; (c) the 3D filter generator.
