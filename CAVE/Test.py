@@ -9,7 +9,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 
 parser = argparse.ArgumentParser(description="PyTorch Code for HSI Fusion")
-parser.add_argument('--data_path', default='E:/实验区/DBSIP/data/zc_data/cave/test/', type=str, help='path of the testing data')
+parser.add_argument('--data_path', default='./Data/Test/', type=str, help='path of the testing data')
 parser.add_argument("--sizeI", default=512, type=int, help='the size of trainset')
 parser.add_argument("--testset_num", default=12, type=int, help='total number of testset')
 parser.add_argument("--batch_size", default=1, type=int, help='Batch size')
@@ -28,7 +28,7 @@ dataset = cave_dataset(opt, HR_HSI, HR_MSI, istrain=False)
 loader_train = tud.DataLoader(dataset, batch_size=opt.batch_size)
 
 
-model = torch.load("./highest/f16_cave/model.pth")
+model = torch.load("./Checkpoint/f16/model.pth")
 model = model.eval()
 model = model.cuda()
 
