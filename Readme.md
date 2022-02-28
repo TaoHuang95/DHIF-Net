@@ -49,7 +49,7 @@ or download the [[zip file](https://github.com/TaoHuang95/DHIF-Net/archive/main.
 
 ### Testing 
 
-1. Testing on simulation data   
+1. Testing on simulation data [[Checkpoint](https://drive.google.com/drive/folders/1l9B1JCUfhfwtmimSpCJlJlnVr16gjdyo?usp=sharing)]
 
     1) Run **CAVE/Test.py** to reconstruct 12 synthetic datasets. The results will be saved in 'CAVE/Result/' in the MAT File format.  
 
