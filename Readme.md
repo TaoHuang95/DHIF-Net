@@ -44,7 +44,7 @@ or download the [[zip file](https://github.com/TaoHuang95/DHIF-Net/archive/main.
 
 ### Download the training data
 
-1. [[CAVE](https://www.cs.columbia.edu/CAVE/databases/multispectral/)]: 31 channels
+1. [[CAVE](https://drive.google.com/drive/folders/1nZnGHQhULspJ9w8Xcbv55wTujJ2lT6tI?usp=sharing)]: 31 channels
 
 
 ### Testing 
