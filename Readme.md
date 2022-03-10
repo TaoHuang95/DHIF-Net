@@ -71,13 +71,15 @@ or download the [[zip file](https://github.com/TaoHuang95/DHIF-Net/archive/main.
 If you find our work useful for your research, please consider citing the following papers :)
 
 ```
-@article{huang2022deep,
-  title={Deep Hyperspectral Image Fusion Network with Iterative Spatial-Spectral Regularization},
-  author={Huang, Tao and Dong, Weisheng and Wu, Jinjian and Li, Leida and Li, Xin and Shi, Guangming},
-  journal={IEEE Transactions on Computational Imaging},
-  year={2022},
-  publisher={IEEE}
-}
+@ARTICLE{Huang2022Deep,  
+author={Huang, Tao and Dong, Weisheng and Wu, Jinjian and Li, Leida and Li, Xin and Shi, Guangming},  
+journal={IEEE Transactions on Computational Imaging},   
+title={Deep Hyperspectral Image Fusion Network With Iterative Spatio-Spectral Regularization},   
+year={2022},  
+volume={8},  
+number={},  
+pages={201-214},  
+doi={10.1109/TCI.2022.3152700}}
 ```
 
 
