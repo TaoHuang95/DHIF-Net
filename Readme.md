@@ -72,14 +72,14 @@ If you find our work useful for your research, please consider citing the follow
 
 ```
 @ARTICLE{Huang2022Deep,  
-author={Huang, Tao and Dong, Weisheng and Wu, Jinjian and Li, Leida and Li, Xin and Shi, Guangming},  
-journal={IEEE Transactions on Computational Imaging},   
-title={Deep Hyperspectral Image Fusion Network With Iterative Spatio-Spectral Regularization},   
-year={2022},  
-volume={8},  
-number={},  
-pages={201-214},  
-doi={10.1109/TCI.2022.3152700}}
+  author={Huang, Tao and Dong, Weisheng and Wu, Jinjian and Li, Leida and Li, Xin and Shi, Guangming},  
+  journal={IEEE Transactions on Computational Imaging},   
+  title={Deep Hyperspectral Image Fusion Network With Iterative Spatio-Spectral Regularization},   
+  year={2022},  
+  volume={8},  
+  number={},  
+  pages={201-214},  
+  doi={10.1109/TCI.2022.3152700}}
 ```
 
 
