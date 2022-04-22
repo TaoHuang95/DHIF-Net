@@ -2,7 +2,7 @@
 
 **This repository contains the PyTorch codes for paper <u>*"Deep Hyperspectral Image Fusion Network with Iterative Spatio-Spectral Regularization"*</u> (*IEEE TRANSACTIONS ON COMPUTATIONAL IMAGING (IEEE TCI), VOL. 6, 2022*) by [Tao Huang](https://github.com/TaoHuang95), [Weisheng Dong](https://see.xidian.edu.cn/faculty/wsdong/), [Xin Li](https://xinli.faculty.wvu.edu/).**  
 
-**[[pdf](https://ieeexplore.ieee.org/document/9718189)] [[Project](https://see.xidian.edu.cn/faculty/wsdong/Projects/DHIF-Net.htm)]** 
+**[[pdf](https://ieeexplore.ieee.org/document/9718189)] [[Project](https://see.xidian.edu.cn/faculty/wsdong/Projects/TCI2022-DHIF-Net/DHIF-Net.htm)]** 
 
 
 ## Contents
